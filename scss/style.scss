@@ -1,0 +1,13 @@
+@import 'components/headers';
+@import 'components/main';
+@import 'base/variables';
+
+*{
+    padding: 0%;
+    margin: 0%;
+    html{
+        font-family: 'Calibri';
+        background-color: $bg-matu;
+        color: white;
+    }
+}

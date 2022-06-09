@@ -1,0 +1,33 @@
+@import '../base/variables';
+
+footer{
+    background-color: $bg-header;
+    border-top: 1px solid white;
+    .map{
+        display: flex;
+        margin: 20px;
+        justify-content: space-around;
+        .acompañante-map{
+            display: flex;
+            justify-content: end;
+            align-items: center;
+        }
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .contactos-container{
+        padding-bottom: 20px;
+        .contactos{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            transition: all 2s;
+            .contactos:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}

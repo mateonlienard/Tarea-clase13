@@ -1,0 +1,33 @@
+@import '../base/variables';
+
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: $bg-matu;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .main{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        p{
+            display: flex;
+            font-family: Verdana;
+            color: white;
+        }
+    }
+}
+
+.main-container2{
+    display: flex;
+    justify-content: space-around;
+    background-color: $bg-matu;
+    margin: 40px;
+    h2{
+        display: flex;
+        font-family: Verdana;
+        color: white;
+        align-items: center;
+    }
+}
